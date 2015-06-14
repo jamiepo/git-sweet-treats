@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link href='http://fonts.googleapis.com/css?family=Monda' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/style.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Sweet Treats - Add Products to Catalog</title>
+
+</head>
+<body>
+<div id="main">
+<div id="header">
+<img src="img/logo.png" id="logo"/>
+<img id="right" src="img/muffins-2.jpg"/>
+</div>
+<div id="nav">
+<ul class="menu">
+ 
+    <li><a href="index.php">Home</a></li>
+    <li><a href="#">Shop</a>
+    <ul>
+            <li><a href="#" class="documents">Brownies</a></li>
+            <li><a href="#" class="messages">Cakes</a></li>
+            <li><a href="#" class="signout">Cookies</a></li>
+            <li><a href="#" class="signout">Cupcakes</a></li>
+            <li><a href="#" class="signout">Pies</a></li>
+            <li><a href="#" class="signout">Tartes</a></li>
+            <li><a href="#" class="signout">Tortes</a></li>
+	</ul>
+    
+    <li><a href="contact.php">Contact Us</a>  </li>
+    
+    <li id="register"><a href="shoppingcart.php">Cart</a></li> <!--this link is SWAPPED WITH CART-->
+    <li id="cart"><a href="#">Register</a></li><!--this link is SWAPPED WITH REGISTER-->
+ 	</ul>
+</div>
+
+<style type="text/css" media="screen">
+	.container { 
+			width:381px; 
+			height:290px; 
+			overflow:hidden; 
+			position:relative; 
+			cursor:pointer; 
+			margin-bottom:0; 
+			float:left; 
+			margin:100px 0 0 130px; 
+			border:inset; 
+			}
+		.slides { 
+			position:absolute; 
+			left:0; 
+			top:0px;  
+			}
+		.slides > div { 
+			position:absolute;  
+			width:380px; 
+			display:none; 
+			}
+		
+</style>
+</head>
+
+<div id="loopedSlider">	
+	<div class="container">
+		<div class="slides">
+            	<div><img src="img/cupcakes/banana_pb_cupcake.jpg" width="500" height="500" alt="First Image" /></div>
+                <div><img src="img/cupcakes/bluberry_cupcakes.jpg" width="500" height="500" alt="Second Image" /></div>
+                <div><img src="img/cupcakes/caramel_cupcakes.jpg" width="500" height="500" alt="Third Image" /></div>
+                <div><img src="img/cupcakes/choc_cupcake.jpg" width="500" height="500" alt="Fourth Image" /></div>
+                
+          </div>
+	</div>
+	</div>
+<script type="text/javascript" charset="utf-8">
+	$(function(){
+		// Option set as a global variable
+		$.fn.loopedSlider.defaults.addPagination = false;
+		
+		$('#loopedSlider').loopedSlider({
+			autoStart: 3500,
+			hoverPause: true
+		});
+	});
+</script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+- do a check, make sure pic dir is writable
+
+- add doc-type validator

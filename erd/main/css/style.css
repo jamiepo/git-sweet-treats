@@ -1,0 +1,96 @@
+html, body    {background-color:#ffffff; color:#000000; font-size:8pt; font-family: arial, "lucida console", sans-serif;}
+table					{background-color:#cccccc; color:#000000; font-size:8pt; border:0px solid #ccc;}
+caption				{background-color:#ffffff; color:#000000; font-size:8pt; border:0px solid #6394BD; text-align:left; font-weight: bold;}
+td            {background-color:#fff; color:#000; font-size:8pt; border:0px solid #ccc;}
+th            {background-color:#999; color:#fff; font-size:10pt; border:0px solid #6394BD; text-align:left;}
+th.title      {background-color:#fff; color:#999; font-size:10pt; text-align:center;}
+
+
+h1 {font-size:16pt; margin-top: 0px; margin-bottom: 2px; text-align:center;}
+h2 {font-size:15pt; margin-top: 0px; margin-bottom: 2px; text-align:center;}
+h3 {font-size:14pt; margin-top: 0px; margin-bottom: 2px; }
+h4 {font-size:13pt; margin-top: 0px; margin-bottom: 2px;}
+h5 {font-size:12pt; margin-top: 0px; margin-bottom: 2px;}
+h6 {font-size:11pt; margin:0px;}
+
+a:link        {color: #0000ff; text-decoration: none; font-size: 8pt}
+a:visited     {color: #0000ff; text-decoration: none; font-size: 8pt}
+a:hover       {color: #0000ff; text-decoration: underline; font-size: 8pt }
+a:active      {color: #0000ff; text-decoration: underline; font-size: 8pt }
+
+A.navon:link        {color: #00f; text-decoration: underline; font-weight: bold; font-size: 9pt}
+A.navon:visited     {color: #00f; text-decoration: underline; font-weight: bold; font-size: 9pt}
+A.navon:hover       {color: #00f; text-decoration: underline; font-weight: bold; font-size: 9pt }
+A.navon:active      {color: #00f; text-decoration: underline; font-weight: bold; font-size: 9pt }
+
+A.navoff:link        {color: #00f; text-decoration: none; font-weight: bold; font-size: 9pt}
+A.navoff:visited     {color: #00f; text-decoration: none; font-weight: bold; font-size: 9pt}
+A.navoff:hover       {color: #f00; text-decoration: underline; font-weight: bold; font-size: 9pt }
+A.navoff:active      {color: #00f; text-decoration: underline; font-weight: bold; font-size: 9pt }
+
+A.subtle:link        {color: #999; text-decoration: none; 			font-weight: normal; font-size: 7pt}
+A.subtle:visited     {color: #999; text-decoration: none; 			font-weight: normal; font-size: 7pt}
+A.subtle:hover       {color: #999; text-decoration: underline; 	font-weight: normal; font-size: 7pt }
+A.subtle:active      {color: #999; text-decoration: underline; 	font-weight: normal; font-size: 7pt }
+
+A.refs1:link        {color: #999; text-decoration: none; 			font-weight: normal; font-size: 7pt}
+A.refs1:visited     {color: #999; text-decoration: none; 			font-weight: normal; font-size: 7pt}
+A.refs1:hover       {color: #999; text-decoration: underline; 	font-weight: normal; font-size: 7pt }
+A.refs1:active      {color: #999; text-decoration: underline; 	font-weight: normal; font-size: 7pt }
+
+A.clrs:link        {color: #00f; text-decoration: none; 			font-weight: normal; font-size: 7pt}
+A.clrs:visited     {color: #00f; text-decoration: none; 			font-weight: normal; font-size: 7pt}
+A.clrs:hover       {color: #00f; text-decoration: underline; 	font-weight: normal; font-size: 7pt }
+A.clrs:active      {color: #00f; text-decoration: underline; 	font-weight: normal; font-size: 7pt }
+
+form{display:inline; border:0px;}
+img {display:inline; border:0px; margin:0px;}
+
+input						{background-color:#eee; color:#f00; font-size:8pt; font-family:monospace; border:1px solid #000;}
+input.btn		{color:#fff; background-color:#00f; border:1px solid #f00; font-weight:bold;}
+select	{background-color:#eee; color:#f00; font-size:8pt; font-family:monospace; border:1px none #fff;}
+select.nohilite	{color:#000;}
+select.relations{width:120px}
+.msg {color:#f00; font-size:8pt;}
+
+.myBox {border: solid #000 1px; padding:2px; margin:2px}
+
+.hilite{ color:#f00;}
+
+#imgLayer {
+  position: relative;
+  left: 0;
+  top: 0;
+  margin:0px;
+}
+
+#top {
+	border:1px solid #ddd;
+	padding:1px;
+	margin:1px;
+  text-align:center;
+}
+
+.box1 {
+	border:1px solid #ddd;
+	padding:1px;
+	margin:1px;
+  text-align:center;
+}
+
+#main {
+	border:1px solid #ddd;
+	border-top:0px solid #ddd;
+	border-bottom:0px solid #ddd;
+	padding:1px;
+	margin:1px;
+  text-align:center;
+}
+
+#foot {
+	border:1px solid #ddd;
+	padding:1px;
+	margin:1px;
+  text-align:center;
+  color:#999; font-size:7pt;
+}
