@@ -58,6 +58,7 @@ body {
   left: 0;
   min-width: 100%;
   height: 500px;
+
 }
 
 
@@ -71,6 +72,7 @@ body {
 }
 .marketing h2 {
   font-weight: normal;
+  color:#e3527a;
 }
 .marketing .col-lg-4 p {
   margin-right: 10px;
