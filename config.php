@@ -1,4 +1,5 @@
 <?php
+//config file
 //initiates the variable to connect to database
 $host = 'BakedGoods.db.7003830.hostedresource.com';
 $user = 'BakedGoods';
